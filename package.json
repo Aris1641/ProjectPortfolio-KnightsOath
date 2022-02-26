@@ -1,0 +1,21 @@
+{
+  "name": "projectportfolio-knighsoath",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lite": "liteserver",
+    "start": "npm run lite"
+  },
+  "author": "Aris Ceballos",
+  "license": "ISC",
+  "devDependencies": {
+    "liteserver": "^0.3.0"
+  },
+  "dependencies": {
+    "bootstrap": "^4.5.2",
+    "jquery": "^3.5.1",
+    "popper.js": "^1.16.1"
+  }
+}
