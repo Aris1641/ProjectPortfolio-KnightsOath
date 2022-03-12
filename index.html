@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/node_modules/font-awesome/css/font-awesome.min.css" />
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="styles.css">
     <title>Knight's Oath Gaming</title>
@@ -23,7 +24,7 @@
                     <img src="/img/destiny2.png" class="img-fluid" alt="destiny2 logo">
                 </div>
                 <div class="col" style="font-family:'Times New Roman', Times, serif">
-                    <h1>Knights' Oath Gaming</h1>
+                    <h1 class="text-info">Knights' Oath Gaming</h1>
                     <h2>We are group of friends who enjoy playing Destiny 2 and Dungeons & Dragons</h2>
                 </div>
                 <div class="col-sm-3 col-md-2 align-self-left">
@@ -31,6 +32,35 @@
                 </div>
             </div>
     </header>
+
+    <!--Nav Bar-->
+
+    <nav class="navbar navbar-expand-sm navbar-dark sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="#"><img src="img/destiny2.png" height="30" width="75" /></a>
+            <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#knightNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="knightNavbar">
+                <ul class="navbar-nav">
+                    <li class="nav-item active"><a class="nav-link" href="#"><i class="fa fa-home fa-lg"></i>Home</a>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="aboutus.html"><i class="fa fa-info fa-lg"></i>
+                            About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#"><i class="fa fa-list fa-lg"></i> Sites</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contactus.html"><i
+                                class="fa fa-address-card fa-lg"></i>
+                            Contact</a></li>
+                </ul>
+                <span class="navbar-text ml-auto">
+                    <a role="button" data-toggle="modal" data-target="#loginModal">
+                        <i class="fa fa-sign-in"></i> Login
+                    </a>
+                </span>
+            </div>
+        </div>
+    </nav>
+
     <!--Main themes-->
 
     <div>
@@ -38,15 +68,12 @@
         <div class="row">
             <div class="col-sm-4">
                 <div class="card justify-content-center">
-                    <div class="card-header bg-dark">
+                    <div class="card-header bg-warning">
                         <h3 class="text-light">Destiny 2 Clan</h3>
                     </div>
                     <div class="card-body bg-dark">
                         <p class="card-text text-primary">We are a clan that tries to clear content together
-                            within small
-                            groups.
-                            We are looking for more
-                            people to add in our fun. </p>
+                            within small groups. We are looking for more people to add in our fun. </p>
                     </div>
                 </div>
             </div>
@@ -55,15 +82,14 @@
 
             <div class="col-sm-4">
                 <div class="card justify-content-center">
-                    <div class="card-header bg-dark">
+                    <div class="card-header bg-warning">
                         <h3 class="text-light"><strong>Community</strong></h3>
                     </div>
                     <div class="card-body bg-dark">
                         <p class="card-text text-success"> Our community started small with a few friends trying to
-                            learn
-                            the game. And now we have growth quite a bit. Our goal is to provide a place for
-                            everyone to
-                            feel accepted and to flourish. Whether you enjoy playing Destiny 2, Dungeons & Dragons,
+                            learn the game. And now we have growth quite a bit. Our goal is to provide a place for
+                            everyone to feel accepted and to flourish. Whether you enjoy playing Destiny 2, Dungeons &
+                            Dragons,
                             or any other game. This will be a community that will help you.</p>
                     </div>
                 </div>
@@ -73,7 +99,7 @@
 
             <div class="col-sm-4">
                 <div class="card justify-content-center">
-                    <div class="card-header bg-dark">
+                    <div class="card-header bg-warning">
                         <h3 class="text-light">Dungeons & Dragons</h3>
                     </div>
                     <div class="card-body bg-dark">
@@ -88,7 +114,28 @@
         </div>
     </div>
 
+
+
+
+    <!--Meet The Leaders-->
+    <div class="container">
+        <div class="accordion">
+            <div class="row">
+                <div class="col">
+                    <header class="text-capitalize text-success">Meeting the Founders</header>
+                    <ol>
+                        <li><strong>Founder</strong> Aremus-X</li>
+                        <li><strong>Admin / Dungeon Master</strong> ForteTheFreak</li>
+                        <li><strong>Admin</strong> NoXClue</li>
+                        <li><strong>Admin</strong> TopRamenXL</li>
+                        <li><strong>Admin</strong> Royal_Elisenpai</li>
+                        <li><strong>Admin</strong> Javith</li>
+                    </ol>
+                </div>
+            </div>
+        </div>
     </div>
+
     <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
     <script src="/node_modules/popper.js/dist/umd/popper.min.js"></script>
     <script src="/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
