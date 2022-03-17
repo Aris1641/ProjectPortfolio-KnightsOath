@@ -41,9 +41,9 @@
             </button>
             <div class="collapse navbar-collapse" id="knightNavbar">
                 <ul class="navbar-nav">
-                    <li class="nav-item active"><a class="nav-link" href="#"><i class="fa fa-home fa-lg"></i>Home</a>
+                    <li class="nav-item"><a class="nav-link" href="index.html"><i class="fa fa-home fa-lg"></i>Home</a>
                     </li>
-                    <li class="nav-item"><a class="nav-link" href="aboutus.html"><i class="fa fa-info fa-lg"></i>
+                    <li class="nav-item active"><a class="nav-link" href="#"><i class="fa fa-info fa-lg"></i>
                             About</a></li>
                     <li class="nav-item"><a class="nav-link" href="#"><i class="fa fa-list fa-lg"></i> Sites</a></li>
                     <li class="nav-item"><a class="nav-link" href="contactus.html"><i
@@ -103,21 +103,77 @@
     <!--Meet The Leaders-->
     <div class="container">
         <div class="accordion">
-            <div class="row">
+            <div class="row justify-content-center">
                 <div class="col">
                     <header class="text-capitalize text-success">Meeting the Founders</header>
-                    <ol>
-                        <li><strong>Founder</strong> Aremus-X</li>
-                        <li><strong>Admin / Dungeon Master</strong> ForteTheFreak</li>
-                        <li><strong>Admin</strong> NoXClue</li>
-                        <li><strong>Admin</strong> TopRamenXL</li>
-                        <li><strong>Admin</strong> Royal_Elisenpai</li>
-                        <li><strong>Admin</strong> Javith</li>
-                    </ol>
+
+                    <div class="row row-content">
+                        <div class="col">
+                            <h3>Community leaders</h3>
+                            <div id="accordion">
+                                <div role="tab" class="card-header">
+                                    <h4><a data-toggle="collapse" data-target="#leader">Aremus-X<small> Founder & Raid
+                                                Leader</small></a></h4>
+                                    <div class="collapse show" id="leader" data-parent="#accordion">
+                                        <div class="card-body">
+                                            <p class="d-none d-sm-block">Aremus-X created this clan to provide a place
+                                                for his friends to meet up and hangout in Destiny.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <div role="tab" class="card-header">
+                                        <h4><a class="collasped" data-toggle="collapse"
+                                                data-target="#dMaster">ForteTheFreak
+                                                <small> Admin & Dungeon Master</small></a></h4>
+                                        <div class="collapse" id="dMaster" data-parent="#accordion">
+                                            <div class="card-body">
+                                                <p class="d-none d-sm-block">Forte has always played Destiny with
+                                                    Aremus. He also introduce the clan to Dungeons & Dragons. We have
+                                                    completed a few campaigns together and had an amazing time thanks to
+                                                    Forte's vision.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <div role="tab" class="card-header">
+                                        <h4><a class="collapsed" data-toggle="collapse" data-target="#noXClue">NoXClue
+                                                <small>Admin & Content Completionist</small></a></h4>
+                                        <div class="collapse" id="noXClue" data-parent="#accordion">
+                                            <div class="card-body">
+                                                <p class="d-none d-sm-block">NoXClue doesn't really like to be a day to
+                                                    day leader. He is much more about completing content. He has been a
+                                                    Dungeon Master from time to time. But he loves to complete his games
+                                                    until there is nothing left to do.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <div role="tab" class="card-header">
+                                        <h4><a class="collapsed" data-toggle="collapse"
+                                                data-target="#topRamen">TopRamenXL
+                                                <small>Outdoor Clothes & Shoes</small></a></h4>
+                                        <div class="collapse" id="topRamen" data-parent="#accordion">
+                                            <div class="card-body">
+                                                <p class="d-none d-sm-block">TopRamenXL is of the admin that would
+                                                    introduce to new games that might peak your interests. He is always
+                                                    available to help you complete any content.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
+
+        <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+        <script src="/node_modules/popper.js/dist/umd/popper.min.js"></script>
+        <script src="/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 
 </body>
 
